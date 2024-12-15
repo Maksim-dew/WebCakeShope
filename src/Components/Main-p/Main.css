@@ -1,0 +1,102 @@
+.main {
+  background-image: url("../Photo/background.png") ;
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 700px;
+  align-items: flex-start;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  gap: 20px;
+}
+
+
+.m-text {
+  font-size: 48px;
+  color: white;
+  margin: 0px;
+  /* width: 470px; */
+  font-weight: 300;
+}
+
+.s-text {
+  color: white;
+  max-width: 470px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.btn-main {
+  font-size: 20px;
+  background: none;
+	color: inherit;
+	border: none;
+	cursor: pointer;
+	outline: inherit;
+  color: white;
+  padding-bottom: 2px;
+  border-bottom: rgb(255, 255, 255) 2px solid;
+}
+
+
+@media (width <= 1080px) {
+  .content {
+    margin-left: 20px;
+    
+  }
+}
+
+@media (width <= 800px) {
+  .content {
+    align-items: center;
+  }
+  .m-text, .text {
+    text-align: center;
+  }
+}
+
+@media (width <= 520px) {
+  .main {
+
+    padding-top: 315px;
+
+  }
+
+  .text {
+
+    margin-top: 35px;
+
+}
+
+  .m-text {
+    font-size: 35px;
+}
+
+.s-text {
+  color: white;
+  max-width: 470px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+
+  .content {
+      margin-left: 0px;
+  }
+
+}

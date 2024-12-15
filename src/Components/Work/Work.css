@@ -1,0 +1,30 @@
+.gallery {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.items {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+@media (width <= 1080px) {
+  .gallery {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (width <= 620px) {
+  .gallery {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+}

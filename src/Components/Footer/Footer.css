@@ -1,0 +1,41 @@
+.info { 
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.info-logo {
+  font-weight: 700;
+}
+
+.info {
+  text-align: center;
+}
+
+.href-s {
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+}
+
+.info-me {
+  background-color: #D5C3B2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-content-f {
+  display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin: auto;
+
+    justify-content: center;
+}
+
+.info--me {
+  margin: 2px;
+  font-size: 14px;
+}

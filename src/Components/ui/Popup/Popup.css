@@ -1,0 +1,122 @@
+.popup-box {
+  position: fixed;
+  background: #00000090;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+ 
+.box {
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 70vh - 20px);
+  background: #161415;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.box-image {
+  width: 530px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px 0 0 10px;
+}
+
+@media (width <= 1185px) {
+  .box-image {
+    width: 50%;
+  }
+}
+
+@media (width <= 850px) {
+
+  .box-image {
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    max-height: 70vh;
+    margin-top: calc(100vh - 82vh - 20px);
+    background: #161415;
+    border-radius: 10px;
+    overflow: auto;
+    gap: 0px;
+  }
+
+  .text-popup {
+    text-align: center;
+      padding: 0 50px 10px 50px;
+  }
+
+}
+
+
+.text-popup {
+  display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.h-popup {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.p-popup {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* .close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 30px);
+  top: calc(100vh - 85vh - 33px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+} */
+.close-icon {
+  -webkit-user-select: none;
+  user-select: none;
+  content: 'x';
+  cursor: pointer;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  /* right: calc(15% - 30px); */
+  /* top: calc(100vh - 85vh - 33px); */
+  /* background: #ededed; */
+  width: 25px;
+  height: 25px;
+  /* border-radius: 50%; */
+  line-height: 20px;
+  text-align: center;
+  /* border: 1px solid #999; */
+  font-size: 33px;
+}

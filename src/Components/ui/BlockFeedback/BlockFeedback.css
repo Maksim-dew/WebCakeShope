@@ -1,0 +1,50 @@
+.blockFeedback {
+  display: flex;
+  width: 650px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.main-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-cov, .right-cov {
+  font-size: 238px;
+  font-weight: 700;
+  margin: 0px;
+  height: 50px;
+  opacity: 0.2;
+}
+
+.left-cov {
+  transform: rotate(180deg);
+  transform-origin: center;
+}
+
+.text-block {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.name-block {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+@media (width <= 750px) {
+  .blockFeedback {
+    width:470px;
+      gap: 140px;
+
+  }
+
+  .main-block {
+    position: fixed;
+}
+}
