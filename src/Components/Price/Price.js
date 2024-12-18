@@ -29,6 +29,8 @@ import CaviarSandwich from "../Photo/CaviarSandwich.jpeg"
 
 import Moti from "../Photo/Moti.jpeg"
 
+import DubaiChocolate from "../Photo/DubaiChocolate.JPG"
+
 
 import banan from "../Photo/banan.jpg"
 import { color } from "storybook/internal/theming";
@@ -292,6 +294,27 @@ function Price ({setProduct}) {
       gramm: "4 шт.",
       category: 'moti',
     },
+    //////////////////////////////////////
+    {
+      id: 27,
+      name: 'Дубайский шоколад',
+      description: 'Итальянский молочный шоколад, фисташковая паста, катаифи - тесто ручной работы.',
+      price: 1700,
+      image: DubaiChocolate,
+      size: '18',
+      gramm: "~360/380 г.",
+      category: 'DubaiChocolate',
+    },
+    {
+      id: 28,
+      name: 'Дубайский шоколад',
+      description: 'Итальянский молочный шоколад, фисташковая паста, катаифи - тесто ручной работы.',
+      price: 700,
+      image: DubaiChocolate,
+      size: '11.5',
+      gramm: "100 г.",
+      category: 'DubaiChocolate',
+    },
   ];
 
   const [selectedCategory, setSelectedCategory] = useState('hit');
@@ -353,6 +376,13 @@ function Price ({setProduct}) {
             onClick={() => setSelectedCategory('moti')}
           >
             Моти
+          </a>
+          <a
+            className={`aa ${selectedCategory === 'DubaiChocolate' ? 'active' : ''}`}
+            href="#DubaiChocolate"
+            onClick={() => setSelectedCategory('DubaiChocolate')}
+          >
+            Дубайский шоколад
           </a>
         </nav>
 
