@@ -30,6 +30,7 @@ import CaviarSandwich from "../Photo/CaviarSandwich.jpeg"
 import Moti from "../Photo/Moti.jpeg"
 
 import DubaiChocolate from "../Photo/DubaiChocolate.JPG"
+import SmDubaiChocolate from "../Photo/SmDubaiChocolate.JPG"
 
 
 import banan from "../Photo/banan.jpg"
@@ -310,7 +311,7 @@ function Price ({setProduct}) {
       name: 'Дубайский шоколад',
       description: 'Итальянский молочный шоколад, фисташковая паста, катаифи - тесто ручной работы.',
       price: 700,
-      image: DubaiChocolate,
+      image: SmDubaiChocolate,
       size: '11.5',
       gramm: "100 г.",
       category: 'DubaiChocolate',

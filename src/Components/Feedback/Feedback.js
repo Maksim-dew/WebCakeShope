@@ -2,25 +2,22 @@ import React from "react";
 import "./Feedback.css";
 
 import Title from "../ui/Title/title";
-// import BlockFeedback from "../ui/BlockFeedback/BlockFeedback";
-// import { Carousel } from "../ui/Carousel/Carousel";
 
 import e1 from "../Photo/Yorumlar/IMG_1214.PNG";
 import e2 from "../Photo/Yorumlar/IMG_1215.PNG";
 import e4 from "../Photo/Yorumlar/IMG_1217.PNG";
 import e6 from "../Photo/Yorumlar/IMG_1219.PNG";
-// import e7 from "../Photo/Yorumlar/IMG_1220.PNG";
 import e14 from "../Photo/Yorumlar/IMG_1227.PNG";
-// import e15 from "../Photo/Yorumlar/IMG_1228.PNG";
-// import e16 from "../Photo/Yorumlar/IMG_1229.PNG";
 import e17 from "../Photo/Yorumlar/IMG_1230.PNG";
 import e18 from "../Photo/Yorumlar/IMG_1231.PNG";
 
-import yy_1 from "../Photo/Yorumlar/yy_1.PNG";
 import yy_2 from "../Photo/Yorumlar/yy_2.PNG";
 import yy_3 from "../Photo/Yorumlar/yy_3.PNG";
 import yy_4 from "../Photo/Yorumlar/yy_4.PNG";
-// import yy_5 from "../Photo/Yorumlar/yy_5.PNG";
+
+import qq_1 from "../Photo/Yorumlar/qq_1.jpg";
+import qq_2 from "../Photo/Yorumlar/qq_2.jpg";
+import qq_3 from "../Photo/Yorumlar/qq_3.jpg";
 
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -36,7 +33,25 @@ function Feedback() {
   const yorumlar = [
     <div className="yorumlar">
       <img
-        src={yy_1}
+        src={qq_1}
+        onDragStart={handleDragStart}
+        role="presentation"
+        alt="yorumlar"
+        className="yorumlar"
+      />
+    </div>,
+    <div className="yorumlar">
+      <img
+        src={qq_2}
+        onDragStart={handleDragStart}
+        role="presentation"
+        alt="yorumlar"
+        className="yorumlar"
+      />
+    </div>,
+    <div className="yorumlar">
+      <img
+        src={qq_3}
         onDragStart={handleDragStart}
         role="presentation"
         alt="yorumlar"
