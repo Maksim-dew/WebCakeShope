@@ -318,7 +318,7 @@ function Price ({setProduct}) {
     },
   ];
 
-  const [selectedCategory, setSelectedCategory] = useState('hit');
+  const [selectedCategory, setSelectedCategory] = useState('cakes');
 
   const ProductList = () => {
     const filteredProducts = products.filter(
@@ -328,14 +328,14 @@ function Price ({setProduct}) {
     return (
       <div>
         <nav className="menu">
-          <a
+          {/* <a
             className={`aa ${selectedCategory === 'hit' ? 'active' : ''}`}
             href="#hit"
             onClick={() => setSelectedCategory('hit')}
             style={{ color: 'red' }}
           >
             Новый год
-          </a>
+          </a> */}
           <a
             className={`aa ${selectedCategory === 'cakes' ? 'active' : ''}`}
             href="#cakes"
