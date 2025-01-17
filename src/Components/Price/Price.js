@@ -32,6 +32,8 @@ import Moti from "../Photo/Moti.jpeg"
 import DubaiChocolate from "../Photo/DubaiChocolate.JPG"
 import SmDubaiChocolate from "../Photo/SmDubaiChocolate.JPG"
 
+import BombCake from "../Photo/BombCake.jpeg"
+
 
 import banan from "../Photo/banan.jpg"
 import { color } from "storybook/internal/theming";
@@ -148,6 +150,16 @@ function Price ({setProduct}) {
       image: RedVelvet,
       size: 18,
       gramm: "1500 г.",
+      category: 'cakes',
+    },
+    {
+      id: 29,
+      name: 'Торт бомба ',
+      description:'Начинка: любая из меню. В комплекте: бенгальский огонь, молоточек, открытка. Торт находится в одной из сфер, можно положить во внутрь подарок.',
+      price: 4000,
+      image: BombCake,
+      size: 16,
+      gramm: "1300-1500 г.",
       category: 'cakes',
     },
 ///////////////////////////////////////

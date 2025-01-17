@@ -41,6 +41,9 @@ import hit3 from "../Photo/Gallary/Hit3.jpeg";
 import hit4 from "../Photo/Gallary/Hit4.jpeg";
 import hit5 from "../Photo/Gallary/Hit5.jpeg";
 
+import BombCake_2 from "../Photo/Gallary/BombCake_2.jpeg";
+import BombCake_3 from "../Photo/Gallary/BombCake_3.jpeg";
+
 
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -360,7 +363,30 @@ function Work() {
     </div>,
   ];
 
+  const BombCake = [
+    <div className="items">
+      <img
+        src={BombCake_2}
+        onDragStart={handleDragStart}
+        role="presentation"
+        alt="cake"
+        className="items"
+      />
+    </div>,
+    <div className="items">
+      <img
+        src={BombCake_3}
+        onDragStart={handleDragStart}
+        role="presentation"
+        alt="cake"
+        className="items"
+      />
+    </div>,
+  ];
+
   const photos = [
+    { src: BombCake_2, width: 150, height: 195 },
+    { src: BombCake_3, width: 150, height: 195 },
     { src: hit1, width: 15, height: 17, },
     { src: hit2, width: 150, height: 175 },
     { src: hit3, width: 15, height: 17 },
