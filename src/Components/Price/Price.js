@@ -33,6 +33,7 @@ import DubaiChocolate from "../Photo/DubaiChocolate.JPG"
 import SmDubaiChocolate from "../Photo/SmDubaiChocolate.JPG"
 
 import BombCake from "../Photo/BombCake.jpeg"
+import MilkGirl from "../Photo/MilkGirl.jpeg"
 
 
 import banan from "../Photo/banan.jpg"
@@ -87,6 +88,16 @@ function Price ({setProduct}) {
       description: 'Нежные шоколадные коржи воздушный шоколадный крем с добавлением итальянского молочного шоколада кусочки цельной вишни',
       price: 1500,
       image: cherryChocolate,
+      size: 10,
+      gramm: "500 г.",
+      category: 'bento',
+    },
+    {
+      id: 30,
+      name: 'Молочная девочка',
+      description: 'Нежнейший бисквит с добавлением сгущенки. Сливочный крем, ягодная прослойка (ягода любая-вишня/малина/клубника)',
+      price: 1500,
+      image: MilkGirl,
       size: 10,
       gramm: "500 г.",
       category: 'bento',
@@ -162,6 +173,16 @@ function Price ({setProduct}) {
       gramm: "1300-1500 г.",
       category: 'cakes',
     },
+    {
+      id: 31,
+      name: 'Молочная девочка',
+      description: 'Нежнейший бисквит с добавлением сгущенки. Сливочный крем, ягодная прослойка (ягода любая-вишня/малина/клубника)',
+      price: 2000,
+      image: MilkGirl,
+      size: 18,
+      gramm: "1500 г.",
+      category: 'cakes',
+    },
 ///////////////////////////////////////
     {
       id: 13,
@@ -210,6 +231,16 @@ function Price ({setProduct}) {
       price: 2000,
       image: oreo,
       size: 14,
+      gramm: "1000 г.",
+      category: 'bento-maxi',
+    },
+    {
+      id: 32,
+      name: 'Молочная девочка',
+      description: 'Нежнейший бисквит с добавлением сгущенки. Сливочный крем, ягодная прослойка (ягода любая-вишня/малина/клубника)',
+      price: 2000,
+      image: MilkGirl,
+      size: 18,
       gramm: "1000 г.",
       category: 'bento-maxi',
     },
